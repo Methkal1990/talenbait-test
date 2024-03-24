@@ -1,0 +1,12 @@
+.navbar {
+  padding: 2rem 0;
+}
+
+.navbar__logo {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.navbar__logo:hover {
+  color: var(--link-hover);
+}

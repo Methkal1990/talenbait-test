@@ -1,0 +1,109 @@
+.ad {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.ad__card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  gap: 1rem;
+}
+
+.ad__card__head {
+  display: flex;
+  gap: 1rem;
+}
+
+.ad__card__head__avatar {
+  width: 4rem;
+  height: 4rem;
+}
+
+.ad__card__head__main {
+  display: flex;
+  flex-direction: column;
+}
+
+.ad__card__head__main--name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.ad__card__head__main--badge {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.ad__card__description {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.ad__card__actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ad__card__actions--title {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.ad__card__actions--cta {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.ad__card__facebook__actions {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.ad__card__facebook__actions--button {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+
+.ad__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.ad__edit {
+  font-size: 2rem;
+  font-weight: 600;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+}
+
+.ad__edit:hover {
+  background-color: var(--link-hover);
+  color: #fff;
+}
+
+.ad__delete {
+  font-size: 2rem;
+  font-weight: 600;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  background-color: var(--color-warning);
+  color: #fff;
+  cursor: pointer;
+}
+
+.ad__delete:hover {
+  opacity: 0.8;
+}
